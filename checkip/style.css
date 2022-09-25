@@ -1,0 +1,57 @@
+body{
+    position: relative;
+    height: 100vh; 
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://saigonmetromall.com.vn/wp-content/uploads/2022/02/anh-buon-3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* background-position: right top; */
+}
+#container{
+    border-radius: 15px;
+    width: 350px;
+    background-color: #f5f6fa;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    margin: 15px;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+input:nth-child(1){
+    display: block;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    width: 90%;
+}
+.thebutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    display: inline-block;
+    width: 90px;
+    height: 31px;
+    padding: 6px;
+    border-radius: 15px;
+    background-color: rgb(28, 248, 12);
+    color:white;
+    outline: none;
+    border: none;
+    margin: 20px;
+}
+button:hover{
+    background-color: red;
+    transition: 1s;
+}
